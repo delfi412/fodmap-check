@@ -745,6 +745,11 @@ const foods = {
         color: "green"
     },
 
+     "salsicce": {
+        color: "green",
+        portion: "senza lattosio, aglio, cipolla"
+    },
+
     "prosciutto": {
         color: "green"
     },
@@ -754,6 +759,10 @@ const foods = {
     },
 
     "pesce": {
+        color: "green"
+    },
+
+    "salmone affumicato": {
         color: "green"
     },
 
@@ -777,54 +786,18 @@ const foods = {
     // =========================
     // CONDIMENTI E AROMI
     // =========================
-
-    "sale": {
-        color: "green"
-    },
-
-    "pepe": {
-        color: "green"
-    },
-
-    "aceto di riso": {
-        color: "green"
-    },
-
-    "aceto bianco": {
-        color: "green"
-    },
-
-    "aceto balsamico": {
-        color: "green",
-        portion: "Massimo: 1 cucchiaio"
-    },
-
-    "erbe aromatiche": {
-        color: "green"
-    },
-
-    "spezie": {
-        color: "green"
-    },
-
-    "cannella": {
-        color: "green"
-    },
-
-    "coriandolo": {
-        color: "green"
-    },
-
-    "zenzero": {
-        color: "green"
-    },
-
-    "succo di limone": {
-        color: "green"
-    },
-
+  
     "senape": {
         color: "green"
+    },
+
+     "maionese": {
+        color: "green"
+    },
+    
+     "ketchup": {
+        color: "red",
+        portion: "OK 1 cucchiaio"
     },
 
 
