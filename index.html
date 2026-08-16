@@ -2,13 +2,15 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#f6f6f4">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<meta name="theme-color" content="#f7f7f5">
 <link rel="manifest" href="manifest.json">
 
-<title>FODMAP Check</title>
+<title>FODMAP</title>
 
 <style>
+
 * {
     box-sizing: border-box;
 }
@@ -16,63 +18,106 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background: #f6f6f4;
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+    background: #f7f7f5;
+    color: #181818;
+
+    font-family:
+        "Avenir Next",
+        Avenir,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        sans-serif;
+
+    font-weight: 300;
+
     display: flex;
     justify-content: center;
 }
 
 .app {
     width: 100%;
-    max-width: 430px;
-    padding: 55px 24px;
+    max-width: 390px;
+
+    padding:
+        calc(30px + env(safe-area-inset-top))
+        22px
+        calc(30px + env(safe-area-inset-bottom));
+
     text-align: center;
 }
 
 h1 {
-    font-size: 32px;
-    margin: 0 0 28px;
-    letter-spacing: -1px;
+    font-size: 27px;
+    font-weight: 300;
+
+    letter-spacing: 1px;
+
+    margin: 0 0 22px;
 }
 
 .search-box {
-    background: white;
-    border-radius: 18px;
-    padding: 15px 18px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    height: 50px;
+
+    background: #ffffff;
+    border-radius: 15px;
+
+    padding: 0 16px;
+
     display: flex;
     align-items: center;
+
+    box-shadow: 0 3px 15px rgba(0,0,0,0.055);
 }
 
 .search-icon {
-    font-size: 22px;
-    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 300;
+
+    margin-right: 9px;
 }
 
 input {
     border: none;
     outline: none;
+
     width: 100%;
-    font-size: 18px;
+
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 300;
+
     background: transparent;
 }
 
+input::placeholder {
+    color: #999;
+    font-weight: 300;
+}
+
 .result {
-    margin-top: 55px;
+    margin-top: 38px;
 }
 
 .food-name {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 28px;
+    font-size: 26px;
+    font-weight: 300;
+
+    letter-spacing: 0;
+
+    margin-bottom: 21px;
+
     text-transform: capitalize;
 }
 
 .circle {
-    width: 120px;
-    height: 120px;
+    width: 92px;
+    height: 92px;
+
     border-radius: 50%;
-    margin: 0 auto 24px;
+
+    margin: 0 auto;
 }
 
 .green {
@@ -87,45 +132,52 @@ input {
     background: #ff3b30;
 }
 
-.status {
-    font-size: 27px;
-    font-weight: 800;
-}
-
 .portion {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 300;
+
+    margin-top: 17px;
 }
 
-.message {
-    margin-top: 35px;
-    color: #777;
-    font-size: 15px;
+.not-found {
+    margin-top: 38px;
+
+    color: #888;
+
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .hidden {
     display: none;
 }
+
 </style>
 </head>
+
 
 <body>
 
 <div class="app">
 
-    <h1>FODMAP Check</h1>
+    <h1>FODMAP</h1>
+
 
     <div class="search-box">
-        <span class="search-icon">🔍</span>
+
+        <span class="search-icon">⌕</span>
 
         <input
             id="search"
-            type="text"
+            type="search"
             placeholder="Cerca alimento..."
             autocomplete="off"
+            autocapitalize="none"
+            spellcheck="false"
         >
+
     </div>
+
 
     <div id="result" class="result hidden">
 
@@ -133,27 +185,35 @@ input {
 
         <div id="circle" class="circle"></div>
 
-        <div id="status" class="status"></div>
-
         <div id="portion" class="portion"></div>
 
     </div>
 
-    <div id="message" class="message">
-        Prova a cercare mela, carota, cipolla, banana o fragola
+
+    <div id="notFound" class="not-found hidden">
+        Alimento non trovato
     </div>
 
 </div>
 
+
 <script src="app.js"></script>
 
+
 <script>
+
 if ("serviceWorker" in navigator) {
+
     window.addEventListener("load", function() {
+
         navigator.serviceWorker.register("./sw.js");
+
     });
+
 }
+
 </script>
+
 
 </body>
 </html>
