@@ -7,7 +7,8 @@
 <meta name="theme-color" content="#f7f7f5">
 <link rel="manifest" href="manifest.json">
 
-<title>FODMAP Check</title>
+<img src="icon.png" class="app-logo" alt="">
+<title>Is this FODMAP safe?</title>
 
 <style>
 
@@ -35,13 +36,21 @@ body {
     max-width: 390px;
 
     padding:
-        calc(30px + env(safe-area-inset-top))
+        calc(18vh + env(safe-area-inset-top))
         22px
         calc(30px + env(safe-area-inset-bottom));
 
     text-align: center;
 }
- 
+
+.app-logo {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 11px;
+}
+    
 h1 {
     font-size: 27px;
     font-weight: 500;
@@ -109,10 +118,6 @@ input::placeholder {
     background: #A3BD3A;
 }
 
-.orange {
-    background: #E58A25;
-}
-
 .red {
     background: #A51D1D;
 }
@@ -145,7 +150,7 @@ input::placeholder {
 
 <div class="app">
 
-    <h1>FODMAP Check</h1>
+    <h1>Is this FODMAP safe?</h1>
 
 
     <div class="search-box">
