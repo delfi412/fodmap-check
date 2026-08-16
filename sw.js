@@ -1,4 +1,4 @@
-const CACHE_NAME = "fodmap-check-v1";
+const CACHE_NAME = "fodmap-check-v2";
 
 const FILES_TO_CACHE = [
     "./",
