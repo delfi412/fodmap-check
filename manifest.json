@@ -1,0 +1,9 @@
+{
+  "name": "FODMAP Check",
+  "short_name": "FODMAP",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f6f4",
+  "theme_color": "#f6f6f4",
+  "description": "Ricerca semplice degli alimenti FODMAP"
+}
