@@ -1,9 +1,16 @@
 {
-  "name": "FODMAP",
+  "name": "FODMAP Check",
   "short_name": "FODMAP",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f7f7f5",
-  "theme_color": "#f7f7f5",
-  "description": "FODMAP food checker"
+  "background_color": "#F7F6F2",
+  "theme_color": "#F7F6F2",
+  "description": "FODMAP food checker",
+  "icons": [
+    {
+      "src": "./icon%20fodmap.001.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
