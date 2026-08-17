@@ -4,23 +4,23 @@ const foods = {
     // FRUTTA
     // =========================
 
-    "mele": {
+    "mela": {
         color: "red"
     },
 
-    "albicocche": {
+    "albicocca": {
         color: "red"
     },
 
-    "more": {
+    "mora": {
         color: "red"
     },
 
-    "ciliegie": {
+    "ciliegia": {
         color: "red"
     },
 
-    "datteri": {
+    "dattero": {
         color: "red"
     },
 
@@ -32,23 +32,19 @@ const foods = {
         color: "red"
     },
 
-    "pesche noci": {
+    "pesca noce": {
         color: "red"
     },
 
-    "pesche": {
+    "pesca": {
         color: "red"
     },
 
-    "pere": {
+    "pera": {
         color: "red"
     },
 
-    "prugne": {
-        color: "red"
-    },
-
-    "prugne secche": {
+    "prugna": {
         color: "red"
     },
 
@@ -64,7 +60,7 @@ const foods = {
         color: "green"
     },
 
-    "mirtilli": {
+    "mirtillo": {
         color: "green"
     },
 
@@ -72,11 +68,15 @@ const foods = {
         color: "green"
     },
 
-    "clementine": {
+    "clementina": {
+        color: "green"
+    },
+    
+    "mandarino": {
         color: "green"
     },
 
-    "mirtilli rossi": {
+    "mirtillo rosso": {
         color: "green"
     },
 
@@ -102,14 +102,10 @@ const foods = {
 
     "litchi": {
         color: "green",
-        portion: "max 5"
+        portion: "massimo 5"
     },
 
-    "mandarini": {
-        color: "green"
-    },
-
-    "arance": {
+    "arancia": {
         color: "green"
     },
 
@@ -127,14 +123,14 @@ const foods = {
 
     "melograno": {
         color: "green",
-        portion: "max 1/2"
+        portion: "massimo metà frutto"
     },
 
-    "lamponi": {
+    "lampone": {
         color: "green"
     },
 
-    "fragole": {
+    "fragola": {
         color: "green"
     },
 
@@ -143,33 +139,33 @@ const foods = {
     // VERDURA
     // =========================
 
-    "carciofi": {
+    "carciofo": {
         color: "red"
     },
 
     "avocado": {
         color: "red",
-        portion: "OK max 1/4"
+        portion: "massimo un quarto"
     },
 
     "barbabietola": {
         color: "red",
-        portion: "OK max 35g"
+        portion: "massimo 35g"
     },
 
     "broccoli": {
         color: "red",
-        portion: "OK max 35g"
+        portion: "massimo 35g"
     },
 
     "cavoletti di bruxelles": {
         color: "red",
-        portion: "OK max 35g"
+        portion: "massimo 35g"
     },
 
     "zucca butternut": {
         color: "red",
-        portion: "OK max 35g"
+        portion: "massimo 35g"
     },
 
     "cavolfiore": {
@@ -178,12 +174,12 @@ const foods = {
 
     "sedano": {
         color: "red",
-        portion: "OK max 35g"
+        portion: "massimo 35g"
     },
 
     "finocchio": {
         color: "red",
-        portion: "OK max 35g"
+        portion: "massimo 50g"
     },
 
     "aglio": {
@@ -200,12 +196,12 @@ const foods = {
 
     "piselli": {
         color: "red",
-        portion: "0K max 35g"
+        portion: "massimo 35g"
     },
 
-    "cavolo verza": {
+    "verza": {
         color: "green",
-        portion: "Solo piccole quantità"
+        portion: "massimo 35g"
     },
 
     "cipolla": {
@@ -224,14 +220,14 @@ const foods = {
         color: "red"
     },
 
-    "patata dolce": {
+    "patate dolci": {
         color: "red",
-        portion: "0K max 35g"
+        portion: "massimo 35g"
     },
 
     "mais dolce": {
         color: "red",
-        portion: "0K max 35g"
+        portion: "massimo 35g"
     },
 
     "ceci": {
@@ -257,7 +253,6 @@ const foods = {
     "lenticchie": {
         color: "red"
     },
-
 
     "asparagi": {
         color: "green"
@@ -492,17 +487,17 @@ const foods = {
 
     "cocco essiccato": {
         color: "green",
-        portion: "OK piccole quantità"
+        portion: "in piccole quantità"
     },
 
     "mandorle": {
         color: "green",
-        portion: "max 10"
+        portion: "massimo 10"
     },
 
     "nocciole": {
         color: "green",
-        portion: "max 10"
+        portion: "massimo 10"
     },
 
     "noci macadamia": {
@@ -567,8 +562,21 @@ const foods = {
         portion: "di frutti idonei"
     },
 
-    "caramelle, gomme e mentine senza zucchero": {
+    "caramelle senza zucchero": {
         color: "red"
+    },
+
+    "gomme senza zucchero": {
+        color: "red"
+    },
+
+    "mentine senza zucchero": {
+        color: "red"
+    },
+
+    "dolcificanti ": {
+        color: "red",
+        portion: "eccetto eritritolo e stevia"
     },
 
 
@@ -594,17 +602,17 @@ const foods = {
 
     "latte di soia": {
         color: "green",
-        portion: "max 60ml"
+        portion: "massimo 60ml"
     },
 
     "latte di riso": {
         color: "green",
-        portion: "max 200ml"
+        portion: "massimo 200ml"
     },
 
     "latte d'avena": {
         color: "green",
-        portion: "max 50ml"
+        portion: "massimo 50ml"
     },
 
     "yogurt con lattosio": {
@@ -617,7 +625,7 @@ const foods = {
 
     "yogurt di soia": {
         color: "green",
-        portion: "max 125 g"
+        portion: "massimo 125g"
     },
 
     "yogurt di cocco": {
@@ -662,22 +670,22 @@ const foods = {
 
     "ricotta": {
         color: "green",
-        portion: "max 2 cucchiai"
+        portion: "massimo 2 cucchiai"
     },
 
     "fiocchi di latte": {
         color: "green",
-        portion: "max 2 cucchiai"
+        portion: "massimo 2 cucchiai"
     },
 
     "mascarpone": {
         color: "green",
-        portion: "max 2 cucchiai"
+        portion: "massimo 2 cucchiai"
     },
 
     "halloumi": {
         color: "green",
-        portion: "max 2 fette"
+        portion: "massimo 2 fette"
     },
 
     "burro": {
@@ -694,12 +702,12 @@ const foods = {
 
     "crema pasticcera": {
         color: "red",
-        portion: "OK 2 cucchiai"
+        portion: "massimo 2 cucchiai"
     },
 
     "gelato": {
         color: "red",
-        portion: "OK 1 pallina"
+        portion: "massimo 1 pallina"
     },
 
     "gelato senza lattosio": {
@@ -712,12 +720,12 @@ const foods = {
 
     "cioccolato al latte": {
         color: "green",
-        portion: "max 30 g"
+        portion: "massimo 30g"
     },
 
     "cioccolato bianco": {
         color: "green",
-        portion: "max 30 g"
+        portion: "massimo 30g"
     },
 
     "cioccolato fondente": {
@@ -747,7 +755,7 @@ const foods = {
 
      "salsicce": {
         color: "green",
-        portion: "senza lattosio, aglio, cipolla"
+        portion: "se prive di lattosio, aglio e cipolla"
     },
 
     "prosciutto": {
@@ -797,7 +805,7 @@ const foods = {
     
      "ketchup": {
         color: "red",
-        portion: "OK 1 cucchiaio"
+        portion: "massimo 1 cucchiaio"
     },
 
 
@@ -874,7 +882,7 @@ search.addEventListener("input", function () {
     }
 
     const food = Object.keys(foods).find(function (name) {
-        return name.includes(query);
+        return name.startsWith(query);
     });
 
     if (!food) {
