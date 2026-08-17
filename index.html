@@ -30,6 +30,7 @@ body {
 .app {
     width: 100%;
     max-width: 390px;
+    height: 100vh;
 
     padding:
         calc(18vh + env(safe-area-inset-top))
@@ -37,7 +38,9 @@ body {
         calc(30px + env(safe-area-inset-bottom));
 
     text-align: center;
-    
+    margin: 0 auto;
+
+    overflow: hidden;
 }
 
 .app-logo {
