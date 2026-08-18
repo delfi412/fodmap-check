@@ -5,14 +5,31 @@ const foods = {
     // =========================
 
     "mela": {
-        color: "red"
+        color: "red",
+    },
+
+    "frutta essiccata": {
+        color: "red",
     },
 
     "albicocca": {
         color: "red"
     },
 
+    "caco mela": {
+        color: "red",
+        portion: "massimo 60g"
+    },
+
+    "nespola": {
+        color: "red"
+    },
+
     "mora": {
+        color: "red"
+    },
+
+    "frutta sciroppata": {
         color: "red"
     },
 
@@ -25,11 +42,11 @@ const foods = {
     },
 
     "fichi": {
-        color: "red"
+        color: "red",
     },
 
     "mango": {
-        color: "red"
+        color: "red",
     },
 
     "pesca noce": {
@@ -45,7 +62,11 @@ const foods = {
     },
 
     "prugna": {
-        color: "red"
+        color: "red",
+    },
+
+    "pruneaux": {
+        color: "red",
     },
 
     "uvetta": {
@@ -57,7 +78,8 @@ const foods = {
     },
 
     "banana": {
-        color: "green"
+        color: "green",
+        portion: "non troppo matura"
     },
 
     "mirtillo": {
@@ -134,7 +156,11 @@ const foods = {
         color: "green"
     },
 
+    "fichi d'India": {
+        color: "green"
+    },
 
+    
     // =========================
     // VERDURA
     // =========================
@@ -217,7 +243,8 @@ const foods = {
     },
 
     "cipollotto": {
-        color: "red"
+        color: "red",
+        portion: "eccetto la parte verde"
     },
 
     "patate dolci": {
@@ -283,7 +310,7 @@ const foods = {
     },
 
     "zucchine": {
-        color: "green"
+        color: "green",
     },
 
     "cetrioli": {
@@ -300,6 +327,14 @@ const foods = {
 
     "lattuga": {
         color: "green"
+    },
+
+    "spinacino": {
+        color: "green",
+    },
+
+    "spinaci": {
+        color: "green",
     },
 
     "olive": {
@@ -347,7 +382,7 @@ const foods = {
     },
 
     "pomodori": {
-        color: "green"
+        color: "green",
     },
 
     "rape": {
@@ -361,6 +396,7 @@ const foods = {
     "cavolo rosso": {
         color: "green"
     },
+
 
 
     // =========================
@@ -632,6 +668,10 @@ const foods = {
         color: "green"
     },
 
+    "formaggi con lattosio": {
+        color: "red"
+    },
+    
     "cheddar": {
         color: "green"
     },
@@ -781,6 +821,7 @@ const foods = {
     "pesce in scatola": {
         color: "green"
     },
+    
 
     "uova": {
         color: "green"
@@ -806,6 +847,39 @@ const foods = {
      "ketchup": {
         color: "red",
         portion: "massimo 1 cucchiaio"
+    },
+
+    "wasabi": {
+        color: "red",
+    },
+
+    "salsa di soia": {
+        color: "green",
+        portion: "massimo 2 cucchiai"
+    },
+
+    "concentrato di pomodoro": {
+        color: "green",
+    },
+
+    "aceto di riso": {
+        color: "green",
+    },
+
+    "aceto di mele": {
+        color: "green",
+    },
+
+    "aceto baslamico": {
+        color: "green",
+    },
+
+    "salsa barbecue": {
+        color: "red",
+    },
+
+    "salsa teriyaki": {
+        color: "red",
     },
 
 
