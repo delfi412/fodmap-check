@@ -1,8 +1,12 @@
 const foods = {
 
-    // =========================
+    // =====================================================
     // FRUTTA
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
 
     "mela": {
         color: "red",
@@ -16,9 +20,8 @@ const foods = {
         color: "red"
     },
 
-    "caco mela": {
+    "cachi": {
         color: "red",
-        portion: "massimo 60g"
     },
 
     "nespola": {
@@ -37,7 +40,7 @@ const foods = {
         color: "red"
     },
 
-    "dattero": {
+    "datteri": {
         color: "red"
     },
 
@@ -69,12 +72,18 @@ const foods = {
         color: "red",
     },
 
-    "uvetta": {
-        color: "green"
-    },
-
     "anguria": {
         color: "red"
+    },
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
+
+    "uvetta": {
+        color: "green",
+        portion: "massimo 13g / 1 cucchiaio"
     },
 
     "banana": {
@@ -82,27 +91,19 @@ const foods = {
         portion: "non troppo matura"
     },
 
-    "mirtillo": {
-        color: "green"
-    },
-
-    "melone": {
-        color: "green"
-    },
-
     "clementina": {
         color: "green"
     },
-    
+
     "mandarino": {
         color: "green"
     },
 
-    "mirtillo rosso": {
+    "melone bianco": {
         color: "green"
     },
 
-    "melone bianco": {
+    "melone": {
         color: "green"
     },
 
@@ -145,13 +146,25 @@ const foods = {
 
     "melograno": {
         color: "green",
-        portion: "massimo metà frutto"
+        portion: "massimo 1/2 frutto"
     },
 
-    "lampone": {
+    "lamponi": {
         color: "green"
     },
 
+    "fragoline di bosco": {
+        color: "green"
+    },
+
+    "mirtilli rossi": {
+        color: "green"
+    },
+
+    "mirtilli": {
+        color: "green"
+    },
+    
     "fragola": {
         color: "green"
     },
@@ -160,10 +173,14 @@ const foods = {
         color: "green"
     },
 
-    
-    // =========================
+
+    // =====================================================
     // VERDURA
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
 
     "carciofo": {
         color: "red"
@@ -171,41 +188,22 @@ const foods = {
 
     "avocado": {
         color: "red",
-        portion: "massimo un quarto"
     },
 
     "barbabietola": {
         color: "red",
-        portion: "massimo 35g"
-    },
-
-    "broccoli": {
-        color: "red",
-        portion: "massimo 35g"
     },
 
     "cavoletti di bruxelles": {
         color: "red",
-        portion: "massimo 35g"
     },
 
     "zucca butternut": {
         color: "red",
-        portion: "massimo 35g"
     },
 
     "cavolfiore": {
         color: "red"
-    },
-
-    "sedano": {
-        color: "red",
-        portion: "massimo 35g"
-    },
-
-    "finocchio": {
-        color: "red",
-        portion: "massimo 50g"
     },
 
     "aglio": {
@@ -218,16 +216,6 @@ const foods = {
 
     "funghi": {
         color: "red"
-    },
-
-    "piselli": {
-        color: "red",
-        portion: "massimo 35g"
-    },
-
-    "verza": {
-        color: "green",
-        portion: "massimo 35g"
     },
 
     "cipolla": {
@@ -247,40 +235,21 @@ const foods = {
         portion: "eccetto la parte verde"
     },
 
-    "patate dolci": {
-        color: "red",
+
+    // -------------------------
+    // GREEN
+    // -------------------------
+
+    "verza": {
+        color: "green",
         portion: "massimo 35g"
     },
 
-    "mais dolce": {
-        color: "red",
-        portion: "massimo 35g"
+    "broccoli": {
+        color: "green",
+        portion: "massimo 60g"
     },
-
-    "ceci": {
-        color: "red"
-    },
-
-    "fave": {
-        color: "red"
-    },
-
-    "fagioli cannellini": {
-        color: "red"
-    },
-
-    "fagioli borlotti": {
-        color: "red"
-    },
-
-    "fagioli rossi": {
-        color: "red"
-    },
-
-    "lenticchie": {
-        color: "red"
-    },
-
+    
     "asparagi": {
         color: "green"
     },
@@ -305,8 +274,19 @@ const foods = {
         color: "green"
     },
 
-    "erba cipollina": {
-        color: "green"
+    "sedano": {
+        color: "green",
+        portion: "massimo 20g"
+    },
+
+    "finocchio": {
+        color: "green",
+        portion: "massimo 50g"
+    },
+    
+    "erbe aromatiche": {
+        color: "green",
+        portion: "tutte"
     },
 
     "zucchine": {
@@ -361,8 +341,14 @@ const foods = {
         color: "green"
     },
 
+    "patate dolci": {
+        color: "green",
+        portion: "massimo 75g"
+    },
+
     "zucca": {
-        color: "green"
+        color: "green",
+        portion: "massimo 75g"
     },
 
     "ravanello": {
@@ -374,10 +360,6 @@ const foods = {
     },
 
     "alghe": {
-        color: "green"
-    },
-
-    "spinaci": {
         color: "green"
     },
 
@@ -398,10 +380,83 @@ const foods = {
     },
 
 
+    // =====================================================
+    // LEGUMI
+    // =====================================================
 
-    // =========================
+    // -------------------------
+    // RED
+    // -------------------------
+
+    "piselli secchi": {
+        color: "red",
+    },
+
+    "ceci secchi": {
+        color: "red",
+    },
+
+    "fave secche": {
+        color: "red"
+    },
+
+    "fagioli secchi": {
+        color: "red"
+    },
+
+    "lenticchie secche": {
+        color: "red"
+    },
+
+    "edamame": {
+        color: "red"
+    },
+
+    
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
+
+    "ceci": {
+        color: "green",
+        portion: "in scatola, massimo 50g"
+    },
+
+    "fagioli cannellini": {
+        color: "green",
+        portion: "in scatola, massimo 50g"
+    },
+
+    "fagioli borlotti": {
+        color: "green",
+        portion: "in scatola, massimo 50g"
+    },
+
+    "fagioli rossi": {
+        color: "green",
+        portion: "in scatola, massimo 50g"
+    },
+
+    "lenticchie": {
+        color: "green",
+        portion: "in scatola, massimo 50g"
+    },
+
+    "mais": {
+        color: "green",
+        portion: "in scatola, massimo 75g"
+    },
+
+
+    // =====================================================
     // CEREALI E AMIDI
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
 
     "grano": {
         color: "red"
@@ -427,6 +482,17 @@ const foods = {
         color: "red"
     },
 
+    "kamut": {
+        color: "red"
+    },
+
+    
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
+
     "riso": {
         color: "green"
     },
@@ -443,18 +509,36 @@ const foods = {
         color: "green"
     },
 
-    "mais": {
-        color: "green"
-    },
-
     "quinoa": {
         color: "green"
     },
 
+    "miglio": {
+        color: "green"
+    },
 
-    // =========================
+    "amaranto": {
+        color: "green"
+    },
+
+    "sorgo": {
+        color: "green"
+    },
+
+    "farina di mais": {
+        color: "green"
+    },
+
+    
+
+
+    // =====================================================
     // PANE E PASTA
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
 
     "pane di frumento": {
         color: "red"
@@ -476,8 +560,8 @@ const foods = {
         color: "red"
     },
 
-    "pane senza glutine": {
-        color: "green"
+    "pangrattato": {
+        color: "red"
     },
 
     "gnocchi": {
@@ -490,6 +574,15 @@ const foods = {
 
     "pasta di lenticchie": {
         color: "red"
+    },
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
+
+    "pane senza glutine": {
+        color: "green"
     },
 
     "pasta senza glutine": {
@@ -509,9 +602,13 @@ const foods = {
     },
 
 
-    // =========================
+    // =====================================================
     // FRUTTA SECCA E SEMI
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
 
     "anacardi": {
         color: "red"
@@ -520,6 +617,11 @@ const foods = {
     "pistacchi": {
         color: "red"
     },
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
 
     "cocco essiccato": {
         color: "green",
@@ -573,9 +675,13 @@ const foods = {
     },
 
 
-    // =========================
+    // =====================================================
     // ZUCCHERI E DOLCIFICANTI
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
 
     "miele": {
         color: "red"
@@ -585,17 +691,8 @@ const foods = {
         color: "red"
     },
 
-    "zucchero": {
-        color: "green"
-    },
-
-    "sciroppo d'acero": {
-        color: "green"
-    },
-    
-    "marmellata": {
-        color: "green",
-        portion: "di frutti idonei"
+    "melassa": {
+        color: "red"
     },
 
     "caramelle senza zucchero": {
@@ -616,13 +713,57 @@ const foods = {
     },
 
 
-    // =========================
+    // -------------------------
+    // GREEN
+    // -------------------------
+
+    "zucchero": {
+        color: "green"
+    },
+
+    "sciroppo d'acero": {
+        color: "green"
+    },
+
+    "marmellata": {
+        color: "green",
+        portion: "di frutti low FODMAP"
+    },
+
+
+    // =====================================================
     // LATTE E LATTICINI
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
 
     "latte con lattosio": {
         color: "red"
     },
+
+    "yogurt con lattosio": {
+        color: "red"
+    },
+
+    "kefir": {
+        color: "red"
+    },
+
+    "formaggi con lattosio": {
+        color: "red"
+    },
+
+    "gelato": {
+        color: "red",
+        portion: "massimo 1 pallina"
+    },
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
 
     "latte senza lattosio": {
         color: "green"
@@ -651,10 +792,6 @@ const foods = {
         portion: "massimo 50ml"
     },
 
-    "yogurt con lattosio": {
-        color: "red"
-    },
-
     "yogurt senza lattosio": {
         color: "green"
     },
@@ -668,8 +805,8 @@ const foods = {
         color: "green"
     },
 
-    "formaggi con lattosio": {
-        color: "red"
+    "formaggi a pasta dura": {
+        color: "green"
     },
     
     "cheddar": {
@@ -740,16 +877,6 @@ const foods = {
         color: "green"
     },
 
-    "crema pasticcera": {
-        color: "red",
-        portion: "massimo 2 cucchiai"
-    },
-
-    "gelato": {
-        color: "red",
-        portion: "massimo 1 pallina"
-    },
-
     "gelato senza lattosio": {
         color: "green"
     },
@@ -773,9 +900,20 @@ const foods = {
     },
 
 
-    // =========================
+    // =====================================================
     // CARNE, PESCE E UOVA
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
+
+    // Nessuno
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
 
     "manzo": {
         color: "green"
@@ -793,7 +931,7 @@ const foods = {
         color: "green"
     },
 
-     "salsicce": {
+    "salsicce": {
         color: "green",
         portion: "se prive di lattosio, aglio e cipolla"
     },
@@ -821,7 +959,6 @@ const foods = {
     "pesce in scatola": {
         color: "green"
     },
-    
 
     "uova": {
         color: "green"
@@ -832,25 +969,42 @@ const foods = {
     },
 
 
-    // =========================
+    // =====================================================
     // CONDIMENTI E AROMI
-    // =========================
-  
-    "senape": {
-        color: "green"
-    },
+    // =====================================================
 
-     "maionese": {
-        color: "green"
-    },
-    
-     "ketchup": {
+    // -------------------------
+    // RED
+    // -------------------------
+
+    "ketchup": {
         color: "red",
         portion: "massimo 1 cucchiaio"
     },
 
     "wasabi": {
         color: "red",
+    },
+
+    "salsa barbecue": {
+        color: "red",
+    },
+
+    "salsa teriyaki": {
+        color: "red",
+    },
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
+
+    "senape": {
+        color: "green"
+    },
+
+    "maionese": {
+        color: "green"
     },
 
     "salsa di soia": {
@@ -874,19 +1028,39 @@ const foods = {
         color: "green",
     },
 
-    "salsa barbecue": {
-        color: "red",
-    },
 
-    "salsa teriyaki": {
-        color: "red",
-    },
-
-
-
-    // =========================
+    // =====================================================
     // BISCOTTI, CEREALI E SNACK
-    // =========================
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
+
+    "biscotti": {
+        color: "red"
+    },
+
+    "fette biscottate": {
+        color: "red"
+    },
+
+    "muesli": {
+        color: "red"
+    },
+
+    "weetabix": {
+        color: "red"
+    },
+
+    "bran flakes": {
+        color: "red"
+    },
+
+
+    // -------------------------
+    // GREEN
+    // -------------------------
 
     "porridge": {
         color: "green"
@@ -912,26 +1086,47 @@ const foods = {
         color: "green"
     },
 
-    "biscotti": {
+    // =====================================================
+    // BEVANDE
+    // =====================================================
+
+    // -------------------------
+    // RED
+    // -------------------------
+
+    "rum": {
         color: "red"
     },
 
-    "fette biscottate": {
+    "vino dolce": {
         color: "red"
     },
 
-    "muesli": {
-        color: "red"
+    "succhi di frutta": {
+        color: "red",
+        portion: "eccetto di frutti low FODMAP"
     },
 
-    "weetabix": {
-        color: "red"
+    // -------------------------
+    // GREEN
+    // -------------------------
+
+    "birra": {
+        color: "green",
+        portion: "massimo 35cl"
     },
 
-    "bran flakes": {
-        color: "red"
+    "caffè": {
+        color: "green",
     },
 
+    "tè": {
+        color: "green",
+    },
+
+    "vino": {
+        color: "green",
+    },
 };
 
 
@@ -983,3 +1178,4 @@ search.addEventListener("input", function () {
     notFound.classList.add("hidden");
 
 });
+```
