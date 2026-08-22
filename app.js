@@ -707,7 +707,7 @@ const foods = {
         color: "red"
     },
 
-    "dolcificanti ": {
+    "dolcificanti": {
         color: "red",
         portion: "eccetto eritritolo e stevia"
     },
@@ -1178,4 +1178,3 @@ search.addEventListener("input", function () {
     notFound.classList.add("hidden");
 
 });
-```
